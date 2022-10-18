@@ -1,4 +1,4 @@
-# Harness IoT
+# Huebot
 
 ## Open source IoT framework
 
