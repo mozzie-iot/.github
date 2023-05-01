@@ -15,7 +15,8 @@ curl -X POST http://[computer name OR IP address]/user/login \
    -H "Content-Type: application/json" \
    -d '{"username": "my_username", "password": "my_password"}'
 ```
-If successful, this will return session cookie
+If successful, this will return session cookie<br>
+
 2. Get current user
 ```
 curl --cookie "sid=[cookie];" http://[computer name OR IP address]/user/me
