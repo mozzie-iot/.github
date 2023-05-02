@@ -21,3 +21,12 @@ If successful, this will return session cookie<br>
 ```
 curl --cookie "sid=[cookie];" http://[computer name OR IP address]/user/me
 ```
+## CLI commands
+- `install`<br>
+Install and run environment
+- `uninstall`<br>
+Uninstall environment
+- `hub-version`<br>
+Get currently installed environment version
+- `create-admin`<br>
+Create admin user (required to get started with http endpoints)
