@@ -6,7 +6,7 @@
 2. Install the Huebot environment:<br>
 `sudo huebot install` (sudo is required to install apt-get packages and create directories)
 3. Create an admin user:<br>
-`huebot admin-create` (required to access API endpoints)
+`huebot create-admin` (required to access API endpoints)
 
 ## Test API Endpoint
 1. Login as admin
