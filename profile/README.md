@@ -9,17 +9,19 @@
 `huebot create-admin` (required to access API endpoints)
 
 ## Test API Endpoint
-1. Login as admin
+1. Login
 ```
 curl -X POST http://[computer name OR IP address]/user/login \
    -H "Content-Type: application/json" \
    -d '{"username": "my_username", "password": "my_password"}'
 ```
-If successful, this will return session cookie<br>
+If successful, this will return an access token and refresh token<br>
 
 2. Get current user
 ```
-curl --cookie "sid=[cookie];" http://[computer name OR IP address]/user/me
+curl http://[computer name OR IP address]/user/me \
+   -H "Content-Type: application/json" \
+   -H "Authorization: Bearer [access token]" 
 ```
 ## CLI commands
 - `install`<br>
