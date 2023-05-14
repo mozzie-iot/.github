@@ -1,3 +1,5 @@
+![core-deploy](https://github.com/huebot-iot/hub-core/actions/workflows/deploy.yml/badge.svg)
+
 # [v0.1.0-beta](https://github.com/huebot-iot/hub-runner/releases/latest)
 
 ## Getting Started
