@@ -2,7 +2,8 @@
 ![core-deploy](https://github.com/huebot-iot/hub-core/actions/workflows/deploy.yml/badge.svg)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-# [v0.1.0-beta](https://github.com/huebot-iot/hub-runner/releases/latest)
+## Description
+Huebot is an IoT framework that allows clients to be controlled or sensed via HTTP endpoint.    
 
 ## Getting Started
 1. Install the CLI:<br>
