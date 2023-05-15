@@ -3,7 +3,9 @@
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
 ## Description
-Huebot is an IoT framework that allows clients to be controlled or sensed via HTTP endpoint.    
+Huebot is an IoT framework that allows clients to be controlled or sensed via HTTP endpoint. 
+<br><br>
+While Huebot makes use of a number of libraries, core functionality is made possible by [Mosquitto](https://github.com/eclipse/mosquitto) [NGINX](https://github.com/nginx) and [NestJS](https://github.com/nestjs/nest) and [MicroPython](https://github.com/micropython/micropython)
 
 ## Getting Started
 1. Install the CLI:<br>
